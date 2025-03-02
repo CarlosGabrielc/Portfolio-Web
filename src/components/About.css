@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-icon-img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,28 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+  padding: 1rem 0;
+  border-bottom: 1px solid #333;
+  z-index: 100;
+}
+
+.header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.header nav ul li {
+  margin-left: 2rem;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.header nav ul li a:hover {
+  color: #ff4d4d;
+}

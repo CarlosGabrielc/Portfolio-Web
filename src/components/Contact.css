@@ -1,0 +1,43 @@
+.contact {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ff4d4d;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #ff4d4d;
+}
+
+.social-icon-img {
+transition: transform 0.5s ease-in-out;
+}
+
+.social-icon-img:hover {
+  transform: scale(1.9);
+}
+
