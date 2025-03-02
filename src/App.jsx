@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Stacks from './components/Stacks'
 import Contact from './components/Contact'
-import Footer from './components/Footer'
+
 
 function App() {
   return (
